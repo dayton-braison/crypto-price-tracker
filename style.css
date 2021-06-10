@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background: #7240ce;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 10px;
+  color: #404040;
+  background-image: linear-gradient(to right, #d9f54d, #73925f);
+}
+
+h1:hover {
+  background-image: linear-gradient(to left, #d9f54d, #73925f);
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #ffffff;
+  position: relative;
+  top: 80px;
+}
+
+section {
+  position: relative;
+  top: 160px;
+}
+
+#crypto-symbol,
+button {
+  width: 50%;
+  border-radius: 5px;
+}
+
+#crypto-symbol {
+  font-family: inherit;
+  text-align: inherit;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #404040;
+  transform: scale(1);
+  transition: transform 250ms;
+}
+
+#crypto-symbol:focus {
+  transform: scale(1.06);
+}
+
+button {
+  display: inline-block;
+  background-image: linear-gradient(to right, #d9f54d, #73925f);
+  color: #404040;
+  font-family: inherit;
+  font-size: 1.3em;
+  font-weight: 900;
+  letter-spacing: 1px;
+  padding: 6px;
+  border: none;
+  transform: scale(1);
+  transition: transform 250ms;
+}
+
+button:hover,
+button:focus {
+  cursor: pointer;
+  background-image: linear-gradient(to left, #d9f54d, #73925f);
+  transform: scale(1.06);
+}
+
+#crypto-list {
+  list-style: none;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  line-height: 1.9;
+}
